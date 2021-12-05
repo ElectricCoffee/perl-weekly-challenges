@@ -8,3 +8,7 @@ Solve ← {
 }
 
 solution2 ← 10 ↑ 8 Solve 100
+
+
+⍝ Actually correct solution after consulting with Reddit:
+⍸8=≢¨{(0=⍵|⍨⍳⍵)/⍳⍵}¨⍳100
