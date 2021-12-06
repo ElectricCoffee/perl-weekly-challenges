@@ -26,7 +26,7 @@ func main() {
 	fmt.Println(divs)
 
 	for _, d := range divs {
-    // we can get the last digit in base 10 by taking the number mod 10
+		// we can get the last digit in base 10 by taking the number mod 10
 		if d % 10 == n {
 			result = append(result, d)
 		}
