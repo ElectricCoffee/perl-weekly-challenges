@@ -8,5 +8,5 @@ divisors n = filter (\x -> n `mod` x == 0) [1..n]
 main :: IO ()
 main = do 
     let (m, n) = (42, 2)
-        result = filter (\x -> x `mod` 10 == n) $ divisors 42
+        result = filter (\x -> x `mod` 10 == n) $ divisors m
     print result
